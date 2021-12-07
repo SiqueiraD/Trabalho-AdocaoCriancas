@@ -1,0 +1,117 @@
+/*----------------------------------------------------------------PRINCIPAIS----------------------------------------------------------------*/
+body{
+    padding-top: 50px;
+    font-family: 'Bahnschrift' !important;
+    font-size: 1.0rem;
+    text-align: justify;
+    background-color: rgb(220, 247, 255);      
+}
+
+.container{
+    margin: 0 auto;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #747BCF;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5E5FC0;
+  }
+
+  .centraliza {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.container-menu {
+    width: 1100px;         
+} 
+
+/*--------navbar--------*/
+.navbar1{
+    background-color: #1F519B;
+
+}
+
+.navbar2 {
+    height: 45px;
+    margin-top: 56px;
+    background-color: #747BCF;
+    padding: 0;
+}
+
+.navbar-vazio{
+    height: 55px;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar-brand-dashboard{
+    color: white;
+    font-size: 1rem;
+}
+
+.menu-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+} 
+
+.navbar-brand:hover{
+    color: rgb(179, 179, 179);
+}
+
+h4{
+    color: #fff;
+}
+
+/*itens só aparecem em tela desktop)*/
+@media only screen and (max-width: 413px) {
+    .invisivel-mobile {
+        display: none;
+    }
+}
+
+/*itens só aparecem em tela mobile)*/
+@media only screen and (min-width: 413px) {
+    .invisivel-desktop {
+        display: none;
+    }
+}
+
+.busca-mobile{
+    padding: 0;
+    margin: 0;
+    width: 250px;
+}
+/*--------footer--------*/
+.page-footer{
+    background-color: #44832d;
+}
+.text-center{
+    color: white;
+}
+
+
